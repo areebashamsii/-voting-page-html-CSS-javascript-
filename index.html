@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vote Your Binge-Worthy Series</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Binge-Worthy Battle: Choose Your Top Series</h1>
+
+  <div id="container">
+    <div class="series-container">
+      <img src="https://pbs.twimg.com/media/FXA1VqaXoAEFkQ_.jpg:large" alt="Web Series 1">
+      <div class="vote-box">
+        <button class="vote-button" onclick="vote('voteCountSeries1')">Vote</button>
+        <div id="voteCountSeries1" class="vote-count">0 votes</div>
+      </div>
+    </div>
+
+    <div class="series-container">
+      <img src="https://wallpapercave.com/wp/wp9827121.jpeg" alt="Web Series 2">
+      <div class="vote-box">
+        <button class="vote-button" onclick="vote('voteCountSeries2')">Vote</button>
+        <div id="voteCountSeries2" class="vote-count">0 votes</div>
+      </div>
+    </div>
+
+    <div class="series-container">
+      <img src="https://m.media-amazon.com/images/M/MV5BMjU4NGYzMmMtMWJlNi00NjcwLWFhMmMtZmM5NWMzYTI0MmY2XkEyXkFqcGdeQXVyMTUyNjc3NDQ4._V1_.jpg" alt="Web Series 3">
+      <div class="vote-box">
+        <button class="vote-button" onclick="vote('voteCountSeries3')">Vote</button>
+        <div id="voteCountSeries3" class="vote-count">0 votes</div>
+      </div>
+    </div>
+
+    <div class="series-container">
+      <img src="https://universalextras.co.uk/files/2015/12/Peaky-Blinders-2014-TV-Series-Uni-versal-Extras.png" alt="Web Series 4">
+      <div class="vote-box">
+        <button class="vote-button" onclick="vote('voteCountSeries4')">Vote</button>
+        <div id="voteCountSeries4" class="vote-count">0 votes</div>
+      </div>
+    </div>
+  </div>
+
+  <div id="votePopup" class="vote-popup">
+    <p>Great choice!</p>
+  </div>
+<script src="myscript.js"></script>
+  
+</body>
+</html>
